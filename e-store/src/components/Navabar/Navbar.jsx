@@ -10,7 +10,7 @@ import { FaRegBell } from "react-icons/fa6";
 import lion from "../../assets/Lion-Avatar-icon.png";
 const Navbar = () => {
   return (
-    <div className="bg-white-300 flex flex-row justify-between h-18  border bottom-2">
+    <div className="bg-white flex flex-row justify-between h-18  border bottom-2">
       <div className="flex lg:basis-5/12 sm:basis-2/12 md:basis-2/12 ">
         <ul className="flex text-gray-700 font-semibold p-4 items-center list-none">
           <li className="block">
@@ -73,7 +73,7 @@ const Navbar = () => {
             </div>
           </div>
           <div
-            className="sm:hidden lg:flex h-8 w-12  ml-2 border-2 border-neutral-500
+            className="hidden lg:flex md:flex h-8 w-12  ml-2 border-2 border-neutral-500
          rounded-md border-black-500 content-center 
          text-gray-700 text-xs items-center justify-center"
           >

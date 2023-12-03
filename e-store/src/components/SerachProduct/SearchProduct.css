@@ -1,0 +1,16 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.no-outline {
+    outline: none;
+    border: none;
+}
+
+.no-outline:focus {
+    outline: none;
+    border: none;
+}
+
+
+
