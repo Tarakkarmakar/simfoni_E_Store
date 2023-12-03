@@ -10,9 +10,9 @@ import { FaRegBell } from "react-icons/fa6";
 import lion from "../../assets/Lion-Avatar-icon.png";
 const Navbar = () => {
   return (
-    <div className="bg-white flex flex-row justify-between h-18  border bottom-2">
+    <div className="bg-white flex flex-row lg:justify-between  h-18  border bottom-2">
       <div className="flex lg:basis-5/12 sm:basis-2/12 md:basis-2/12 ">
-        <ul className="flex text-gray-700 font-semibold p-4 items-center list-none">
+        <ul className="flex text-gray-700  font-semibold p-4 items-center list-none">
           <li className="block">
             <RxHamburgerMenu />
           </li>
@@ -46,7 +46,7 @@ const Navbar = () => {
         <div className="flex items-center ">
           <div
             className=" hidden 
-        lg:flex border border-neutral-400  rounded-md bg-white w-56 ml-2  h-6 "
+        lg:flex  border border-neutral-400   rounded-md bg-white w-56 ml-2  h-6 "
           >
             <div className="flex h-full items-center bg-transparent right-1 text-sm ml-2">
               <select className="bg-transparent appearance-none border-none py-1">
@@ -81,7 +81,7 @@ const Navbar = () => {
           </div>
         </div>
 
-        <div className="flex lg:w-8/12  sm:w-full h-6 ml-6 mr-2">
+        <div className="flex lg:w-8/12  md:w-8/12 sm:w-full h-6 ml-6 mr-2">
           <div className="w-5/12 h-full flex items-center">
             <ul className="w-full h-full flex justify-between p-0">
               <li className="flex-1 flex justify-center items-center">
@@ -99,7 +99,7 @@ const Navbar = () => {
             </ul>
           </div>
 
-          <div className=" w-5/12 h-full flex items-center ml-5 relative">
+          <div className="   lg:w-5/12 h-full flex items-center ml-5 relative">
             <div
               className=" flex rounded-full border-2 border-grey overflow-hidden bg-green-300
    w-3/12 h-9 flex-shrink-0 items-center justify-center"
