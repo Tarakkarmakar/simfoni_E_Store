@@ -28,9 +28,12 @@ const SearchProduct = () => {
   };
   return (
     <div className="mt-8 text-gray-600">
-      <div className="flex  justify-between h-9 w-full lg:w-6/12 lg:flex-row   sm:flex-col">
+      <div className="flex   lg:mb-3 mb-6   flex-col sm:flex-row 
+       justify-around lg:h-9 md:h-10 h-20 lg:w-6/12 md:w-8/12  w-full bg-blue-40
+       ">
        
-        <div className="flex items-center text-sm  text-center relative ml-4 w-full border border-neutral-400 rounded-md bg-white">
+        <div className="flex lg:w-1/3 md:w-2/4 w-3/4 items-center text-sm  text-center
+          ml-4 w-full border border-neutral-400 rounded-md bg-white">
           <button
             className="w-full flex items-center
             justify-between px-4 py-2 focus:outline-none"
@@ -52,7 +55,11 @@ const SearchProduct = () => {
             </a>
           </div>
         </div>
-        <div className="flex items-center text-sm text-center relative ml-4 w-full border border-neutral-400 rounded-md bg-white">
+
+        <div className="flex lg:w-2/3 w-full ">
+        <div className="flex items-center
+         text-sm text-center relative ml-4 lg:w-full sm:w-6/12 border
+          border-neutral-400 rounded-md bg-white">
           <button
             className="w-full flex items-center justify-between px-4 py-2 focus:outline-none"
             onClick={toggleDropdown2}
@@ -74,7 +81,9 @@ const SearchProduct = () => {
             {/* Add more dropdown items here */}
           </div>
         </div>
-        <div className="flex relative items-center text-sm text-center ml-4 w-full border border-neutral-400 rounded-md bg-white">
+        <div className="flex  items-center
+         text-sm text-center ml-4  lg:w-full sm:w-6/12 border border-neutral-400 
+         rounded-md bg-white">
           <button
             className="w-full flex items-center justify-between px-4 py-2 focus:outline-none"
             onClick={toggleDropdown3}
@@ -95,10 +104,13 @@ const SearchProduct = () => {
             </a>
           </div>
         </div>
+
+        </div>
+      
       </div>
 
-      <div className="flex w-full h-9 mt-3 items-center">
-        <div className="flex w-6/12 h-full border-2 bg-white rounded-md justify-between ml-3 ">
+      <div className="flex w-full h-9 lg:mt-15 sm:mt-50 items-center ">
+        <div className="flex lg:w-6/12 w-8/12 h-full border-2 bg-white rounded-md justify-between ml-3 ">
           <input
             type="text"
             placeholder="Search"
@@ -117,7 +129,7 @@ const SearchProduct = () => {
           <p>Upload</p>
         </div>
 
-        <div className="flex w-6/12 font-medium  justify-center ">
+        <div className="hidden lg:flex md:flex w-6/12 font-medium  justify-center ">
           <div className="flex relative items-center text-sm text-center ml-4 w-4/12 border border-neutral-400 rounded-md bg-white">
             <button
               className="w-full flex items-center justify-between px-4 py-2 focus:outline-none"
@@ -162,6 +174,8 @@ const SearchProduct = () => {
           </div>
         </div>
       </div>
+
+      
     </div>
   );
 };
