@@ -14,9 +14,11 @@
     "react-icons": "^4.12.0",
     "react-router-dom": "^6.20.1",
     "react-scripts": "5.0.1",
+    "react-slick": "^0.29.0",
     "redux": "^4.2.1",
     "redux-persist": "^6.0.0",
     "redux-thunk": "^2.4.2",
+    "slick-carousel": "^1.8.1",
     "tailwindcss": "^3.3.5",
     "thunk": "^0.0.1",
     "web-vitals": "^2.1.4"
