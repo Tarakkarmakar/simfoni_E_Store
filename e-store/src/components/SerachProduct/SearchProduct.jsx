@@ -74,11 +74,11 @@ const SearchProduct = () => {
             }`}
           >
             {/* Dropdown items */}
-            {/* Example dropdown item */}
+        
             <a href="#" className="block px-4 py-2 hover:bg-gray-200">
               Dropdown Item 2
             </a>
-            {/* Add more dropdown items here */}
+     
           </div>
         </div>
         <div className="flex  items-center
@@ -91,13 +91,13 @@ const SearchProduct = () => {
             Plant
             <IoMdArrowDropdown className="h-5 w-5" />
           </button>
-          {/* Dropdown content 1 */}
+       
           <div
             className={`absolute top-full left-0 w-full bg-white border border-gray-300 rounded-b-none ${
               isOpen3 ? "" : "hidden"
             }`}
           >
-            {/* Dropdown items */}
+  
 
             <a href="#" className="block px-4 py-2 hover:bg-gray-200">
               Dropdown Item 3
@@ -144,7 +144,7 @@ const SearchProduct = () => {
                 filter ? "" : "hidden"
               }`}
             >
-              {/* Dropdown items */}
+            
 
               <a href="#" className="block px-4 py-2 hover:bg-gray-200">
               Filter Items
